@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-03T12:20:41 IST" name="Parallel Testing" finished-at="2025-04-03T12:20:58 IST" duration-ms="17261">
+    <groups>
+    </groups>
+    <test started-at="2025-04-03T12:20:41 IST" name="Test1" finished-at="2025-04-03T12:20:48 IST" duration-ms="7865">
+      <class name="testScripts.Hometest">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testScripts.Hometest@55182842]" started-at="2025-04-03T12:20:41 IST" name="initialiseBrowser" finished-at="2025-04-03T12:20:45 IST" duration-ms="4836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="verifyUserIsAbleToLogoutFromHomePage()[pri:0, instance:testScripts.Hometest@55182842]" started-at="2025-04-03T12:20:45 IST" name="verifyUserIsAbleToLogoutFromHomePage" description="Whether user is able to logout of admin page" finished-at="2025-04-03T12:20:48 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLogoutFromHomePage -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testScripts.Hometest@55182842]" started-at="2025-04-03T12:20:48 IST" name="driverQuit" finished-at="2025-04-03T12:20:48 IST" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLogoutFromHomePage status=SUCCESS method=Hometest.verifyUserIsAbleToLogoutFromHomePage()[pri:0, instance:testScripts.Hometest@55182842] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testScripts.Hometest -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-04-03T12:20:41 IST" name="Test2" finished-at="2025-04-03T12:20:58 IST" duration-ms="17261">
+      <class name="testScripts.SubCategoryTest">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testScripts.SubCategoryTest@302552ec]" started-at="2025-04-03T12:20:41 IST" name="initialiseBrowser" finished-at="2025-04-03T12:20:51 IST" duration-ms="10293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="verifyUserIsAbleToAddCategoryOnSubCategory()[pri:0, instance:testScripts.SubCategoryTest@302552ec]" started-at="2025-04-03T12:20:51 IST" name="verifyUserIsAbleToAddCategoryOnSubCategory" description="whether user is able to add category on subcategory" finished-at="2025-04-03T12:20:58 IST" duration-ms="6612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToAddCategoryOnSubCategory -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testScripts.SubCategoryTest@302552ec]" started-at="2025-04-03T12:20:58 IST" name="driverQuit" finished-at="2025-04-03T12:20:58 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToAddCategoryOnSubCategory status=SUCCESS method=SubCategoryTest.verifyUserIsAbleToAddCategoryOnSubCategory()[pri:0, instance:testScripts.SubCategoryTest@302552ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testScripts.SubCategoryTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Parallel Testing -->
+</testng-results>
